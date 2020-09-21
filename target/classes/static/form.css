@@ -1,0 +1,55 @@
+html {
+width: 100%;
+margin: 0;
+padding: 0;
+}
+body {
+width: 100%;
+margin: 0;
+padding: 0;
+}
+form {
+margin: 50px auto;
+width: 30%;
+border: 1px solid red;
+border-radius: 20px;
+text-align: center;
+padding-top: 15px;
+padding-bottom: 15px;
+transition: all 1s;
+}
+form:hover {
+background-color: rgba(255, 0, 0, 0.1);
+transition: all 1s;
+border: 1px solid blue;
+}
+form input[type = text] {
+width: 80%;
+margin: 5px;
+border: 1px solid blue;
+text-align: center;
+transition: all 0.5s;
+border-radius: 5px;
+}
+form input[type = text]:hover {
+border: 1px solid red;
+border-radius: 10px;
+background-color: rgba(0, 0, 255, 0.1);
+transition: all 0.5s;
+}
+form input[type = submit] {
+width: 30%;
+margin: 5px;
+border: 1px solid blue;
+text-align: center;
+border-radius: 5px;
+background-color: white;
+cursor: pointer;
+transition: all 0.5s;
+}
+form input[type = submit]:hover {
+background-color: red;
+border: 1px solid red;
+transition: all 0.5s;
+color: white;
+}
